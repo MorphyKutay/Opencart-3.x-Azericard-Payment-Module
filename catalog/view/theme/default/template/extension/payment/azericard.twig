@@ -1,0 +1,29 @@
+<form action="{{ action }}" method="POST" id="azericard-form">
+    <input type="hidden" name="AMOUNT" value="{{ AMOUNT }}" />
+    <input type="hidden" name="CURRENCY" value="{{ CURRENCY }}" />
+    <input type="hidden" name="ORDER" value="{{ ORDER }}" />
+    <input type="hidden" name="DESC" value="{{ DESC }}" />
+    <input type="hidden" name="MERCH_NAME" value="{{ MERCH_NAME }}" />
+    <input type="hidden" name="MERCH_URL" value="{{ MERCH_URL }}" />
+    <input type="hidden" name="MERCH_GMT" value="{{ MERCH_GMT }}" />
+    <input type="hidden" name="TERMINAL" value="{{ TERMINAL }}" />
+    <input type="hidden" name="EMAIL" value="{{ EMAIL }}" />
+    <input type="hidden" name="TRTYPE" value="{{ TRTYPE }}" />
+    <input type="hidden" name="COUNTRY" value="{{ COUNTRY }}" />
+    <input type="hidden" name="TIMESTAMP" value="{{ TIMESTAMP }}" />
+    <input type="hidden" name="NONCE" value="{{ NONCE }}" />
+    <input type="hidden" name="BACKREF" value="{{ BACKREF }}" />
+    <input type="hidden" name="LANG" value="{{ LANG }}" />
+    <input type="hidden" name="NAME" value="{{ NAME }}" />
+    <input type="hidden" name="M_INFO" value="{{ M_INFO }}" />
+    <input type="hidden" name="P_SIGN" value="{{ P_SIGN }}" />
+
+
+
+    <button type="submit" id="confirm-btn">{{ button_confirm }}</button>
+</form>
+<style>
+    #confirm-btn {
+        display: none;
+    }
+</style>
